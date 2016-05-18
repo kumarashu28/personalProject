@@ -1,0 +1,37 @@
+<head>
+  <title>MyApp Ashutosh</title>
+</head>
+
+<body>
+  {{> login}}
+</body>
+
+
+<template name="login">
+  {{>loginButtons}}
+  <table  align="center" style=background-color:gray;>
+  <tr>
+  <td colspan="2"> 
+  <h2>WELCOME LOGIN PAGE</h2>
+  </td>
+  </tr>
+  <tr>
+  <td> User Name</td><td><input type="text" id="u"/></td>
+  </tr>
+ <tr>
+  <td>Password</td><td><input type="password" id="p"/></td>
+  </tr>
+  <tr align="center">
+  <td colspan="2">
+  <br>
+ <button>Sign In</button>
+ </td>
+ </tr>
+ </table>
+ <table>
+<tr>
+  <td><textarea rows=5 cols=30 id="cmm"></textarea></td><td><button>Submit</button></td></tr>
+   </table>
+   <p id='d'> </p>
+  </template>
+  
